@@ -28,6 +28,7 @@ html {
   align-items: flex-end;
   gap: 30px;
   max-width: 1140px;
+  min-height: 534px;
 }
 
 .title {
@@ -115,7 +116,7 @@ html {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
@@ -169,7 +170,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
@@ -182,7 +183,7 @@ html {
   background-color: inherit;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
@@ -199,9 +200,7 @@ html {
 .search-form__textfield:focus {
   outline: none;
 }
-.search-form__textfield:active {
-  cursor: default;
-}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
@@ -242,7 +241,7 @@ html {
   background-color: #fff;
 }
 .button {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.6px;
